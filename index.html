@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="ISO-8859-1">
+    <script src=".\js\scripts.js"></script>
+    <link rel="stylesheet" type="text/css" href=".\css\style.css">
+    <title>Conversor RGB to Hexadecimal</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="twoColumn">
+            <div class="rangeItem">
+                <label class="label">Red</label><br/>
+                <input id="red" type="range" min="0" max="255" value="255" step="1" onchange="changeHex()">
+                <div class="title">
+                    <label id="label-red"></label>
+                </div>
+            </div>
+            <div class="rangeItem">
+                <label class="label">Green</label><br/>
+                <input id="green" type="range" min="0" max="255" value="255" step="1" onchange="changeHex()">
+                <div class="title">
+                    <label id="label-green"></label>
+                </div>
+
+            </div>
+            <div class="rangeItem">
+                <label class="label">Blue</label><br/>
+                <input id="blue" type="range" min="0" max="255" value="255" step="1" onchange="changeHex()">
+                <div class="title">
+                    <label id="label-blue"></label>
+                </div>
+            </div>
+
+        </div>
+        <div class="twoColumn">
+            <div id="square" class="square"></div>
+            <div class="title">
+                <label id="label-hex">#</label>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

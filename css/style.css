@@ -1,0 +1,44 @@
+.container {
+    border: solid black 1px;
+    overflow: auto;
+    width: 50%;
+}
+
+.twoColumn {
+    width: 30%;
+    float: left;
+    padding: 1%;
+}
+
+.rangeItem {
+    display: inline-block;
+    width: 60px;
+    height: 150px;
+    padding: 2%;
+}
+
+.rangeItem input {
+    width: 150px;
+    height: 20px;
+    margin: 20;
+    transform-origin: 75px 75px;
+    transform: rotate(-90deg);
+}
+
+.rangeItem .label {
+    font-style: strong;
+    font-size: x-large;
+    margin-top: 50%;
+}
+
+.title {
+    margin-top: 130px;
+    font-size: 1em;
+}
+
+.square {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+}
