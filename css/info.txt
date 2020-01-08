@@ -1,0 +1,24 @@
+Los navegadores modernos implementan dos tipos de reglas de estilo para una
+página web, las de usuario y las de autor. Son conjuntos de reglas de estilo que
+afectan a los elementos de la página, es decir, a cualquier documento HTML que
+se vea en el navegador.
+
+Las reglas de estilo de usuario (user stylesheet rules) las define cada persona
+en su navegador, a modo de configuración global, para todas las páginas que
+visita.
+
+Las reglas de estilo de autor (author stylesheet rules) son las que definen los
+autores de las páginas, es decir, los diseñadores o desarrolladores de cada una
+de las páginas que visitamos.
+
+Las reglas de estilo de usuario son menos importantes para el navegador, de
+cara al orden de precedencia o prioridad. Es decir, en caso que en las reglas de
+estilo de usuario y de autor se defina una misma propiedad de estilos CSS, la
+que se tiene en cuenta es la regla de estilo de autor, osea, lo que haya
+configurado el diseñador de la página. Sin embargo, esto se puede cambiar
+puntualmente si el usuario lo desea.
+
+La directriz de CSS !important, permite cambiar el orden de precedencia, de
+forma que cuando se coloca en las reglas de estilo de usuario, hace que siempre
+se tenga en cuenta lo que se haya definido allí, independientemente de lo que
+haya definido el autor.
